@@ -67,7 +67,7 @@
 		end)
 	end
 	local ScreenGui = Instance.new("ScreenGui")
-	local bind = Enum.KeyCode.P
+	local bind = Enum.KeyCode.RightControl
 	function library:SetBind(new)
 		bind = new 
 	end
