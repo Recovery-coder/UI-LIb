@@ -346,8 +346,9 @@ function library:NewWindow(porn,hub)
 		TabName.Font = Enum.Font.Arial
 		TabName.Text = name
 		TabName.TextColor3 = Color3.fromRGB(90,90,90)
-		TabName.TextSize = 100
-
+		TabName.TextSize = 14
+        TabName.TextScaled = true
+		
 		Underline.Name = "Underline"
 		Underline.Parent = TabName
 		Underline.BackgroundColor3 = maincolor
